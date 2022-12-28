@@ -1,0 +1,19 @@
+[user]
+	email = s.saravalli@gmail.com
+	name = Simone Saravalli
+[alias]
+        st = status
+        co = checkout
+        cob = checkout -b
+        del = branch -D
+        br = branch --format='%(HEAD) %(color:yellow)%(refname:short)%(color:reset) - %(contents:subject) %(color:green)(%(committerdate:relative)) [%(authorname)]' --sort=-committerdate
+        up = rebase
+        ci = commit -m
+        lg = !git log --pretty=format:\"%C(magenta)%h%Creset -%C(red)%d%Creset %s %C(dim green)(%cr) [%an]\" --abbrev-commit -30
+        undo = reset HEAD~1 --mixed
+        res = !git reset --hard
+        done = !git push origin HEAD
+[core]
+        autocrlf = input
+[pull]
+        rebase = true
