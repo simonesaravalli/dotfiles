@@ -9,4 +9,4 @@ alias tgp='terragrunt plan'
 alias tgr='terragrunt refresh'
 alias tgsh='terragrunt show'
 alias tgv='terragrunt validate'
-alias tgs='terragrunt state
+alias tgs='terragrunt state'
